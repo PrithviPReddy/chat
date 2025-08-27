@@ -22,7 +22,7 @@ def main():
             break
 
         response = chat.send_message(user_input)
-        print("Not You :", response.text, "\n")
+        print("Not U :->", response.text, "\n")
 
 if __name__ == "__main__":
     main()
