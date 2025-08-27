@@ -16,13 +16,13 @@ def main():
     chat = model.start_chat(history=[])
 
     while True:
-        user_input = input("You   :-> ")
+        user_input = input("You : ")
         if user_input.lower() in ["exit", "quit"]:
             print("bye")
             break
 
         response = chat.send_message(user_input)
-        print("Not U :->", response.text, "\n")
+        print("Bot :->", response.text, "\n")
 
 if __name__ == "__main__":
     main()
