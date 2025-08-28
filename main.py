@@ -11,7 +11,7 @@ def main():
 
     genai.configure(api_key=api_key)
 
-    model = genai.GenerativeModel("gemini-2.5-pro")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     
     chat = model.start_chat(history=[])
 
